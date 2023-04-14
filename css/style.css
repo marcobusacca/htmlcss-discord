@@ -121,8 +121,8 @@ body{
     }
 
     .main-section-text.type2{
-        width: calc(100% - 120px);
-        margin-right: 120px;
+        width: calc(100% - 125px);
+        margin-right: 125px;
     }
 
     .main-section-text > h2{
