@@ -116,10 +116,12 @@ body{
     }
 
     .main-section-text.type1{
-        margin-left: 120px;
+        width: calc(100% - 125px);
+        margin-left: 125px;
     }
 
     .main-section-text.type2{
+        width: calc(100% - 120px);
         margin-right: 120px;
     }
 
@@ -135,11 +137,7 @@ body{
         line-height: 1.5;
     }
 
-    .main-paragraph-1{
-        margin-top: 45px;
-    }
-
-    .main-paragraph-2{
+    .main-paragraph{
         margin-top: 30px;
     }
 
@@ -155,15 +153,18 @@ body{
     }
 
     .main-section-text-2 > h2{
-        font-size: 42px;
+        font-size: 47px;
         font-weight: bolder;
         margin-top: 40px;
     }
 
     .main-section-text-2 > p{
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 500;
         line-height: 1.5;
+
+        margin-left: 2px;
+        margin-right: 2px;
     }
 
     .main-col-3 > .row-2, .row-2 > img {
