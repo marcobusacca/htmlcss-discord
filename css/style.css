@@ -38,26 +38,63 @@ body{
     }
 
     .header-col.type-1 > a{
-        padding: 10px;
-        border-radius: 25px;
-
-        background-color: white;
         color: black;
     }
 
     .header-col.type-2 a{
         margin: 0px 35px;
-        color: white;
-    }
-    
-    .header-col.type-1 > a, .header-col.type-2 a{
-        text-decoration: none;
     }
     
     .jumbotron-col{
         width: 100%;
         height: 400px;
-        background-color: #EE82EE;
+        margin-bottom: 25px;
+    }
+
+    .jumbotron-text-row{
+        display: flex;
+        flex-flow: column wrap;
+
+        color: white;
+    }
+
+    #jumbotron-h1{
+        font-size: 65px;
+    }
+
+    #jumbotron-text{
+        font-size: 21px;
+        margin-top: 45px;
+        font-weight: 500;
+    }
+
+    .jumbotron-btn-row{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .jumbotron-btn-row > a{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .btn-1{
+        width: calc(45% - 150px);
+        margin-left: 120px;
+        margin-right: 30px;
+        color: black;
+    }
+
+    .btn-2{
+        width: calc(55% - 135px);
+        margin-left: 15px;
+        margin-right: 120px;
+    }
+
+    .btn-1 > span {
+        padding-right: 15px;
+        font-size: 20px;
     }
 /* FINE HEADER */
 
@@ -117,6 +154,10 @@ body{
 /* FINE FOOTER */
 
 /* UTILITIES */
+    a{
+        text-decoration: none;
+        color: white;
+    }
     /* SECTION */
         .section-type1{
             width: 100%;
@@ -169,6 +210,10 @@ body{
     }
 
     /* TEXT ALIGN */
+        .text-align-center{
+            text-align: center;
+        }
+
         .text-align-right{
             text-align: right;
         }
@@ -182,5 +227,16 @@ body{
         .bgcolor-black{
             background-color: #23272A;
         }
+
+        .bgcolor-white{
+            background-color: white;
+        }
     /* FINE BG-COLOR */
+
+    /* BORDER RADIUS */
+        .border-radius{
+            padding: 15px 20px;
+            border-radius: 25px;
+        }
+    /* FINE BORDER RADIUS */
 /* FINE UTILITIES */
