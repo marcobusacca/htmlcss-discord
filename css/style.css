@@ -6,16 +6,17 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 /* HEADER */
-    .header-nav{
-        background-color: #ADD8E6;
+    header {
+        background-image: url(../img/jumbo.png);
+        background-size: cover;
     }
 
     .header-col{
-        background-color: orange;
-        padding: 10px;
+        padding: 15px;
     }
     
     .header-col.type-1{
@@ -26,17 +27,31 @@ body{
         width: 60%;
     }
     
-    .header-col.type-2 > a{
-        margin-right: 5px;
+    .header-col.type-1.logo{
+        padding: 8px 15px 15px 15px;
     }
-    
-    .header-col.type-1 > a, .header-col.type-2 > a{
-        text-decoration: none;
+
+    .headermenu-row{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+
+    .header-col.type-1 > a{
+        padding: 10px;
+        border-radius: 25px;
+
+        background-color: white;
         color: black;
     }
+
+    .header-col.type-2 a{
+        margin: 0px 35px;
+        color: white;
+    }
     
-    .jumbotron{
-        background-color: #00008B;
+    .header-col.type-1 > a, .header-col.type-2 a{
+        text-decoration: none;
     }
     
     .jumbotron-col{
@@ -126,8 +141,7 @@ body{
 
     /* CONTAINER */
         .container-type1{
-            max-width: 1170px;
-            width: 60%;
+            width: 70%;
             margin: 0 auto;
         }
 
@@ -155,14 +169,6 @@ body{
     }
 
     /* TEXT ALIGN */
-        .text-align-left{
-            text-align: left;
-        }
-
-        .text-align-center{
-            text-align: center;
-        }
-
         .text-align-right{
             text-align: right;
         }
