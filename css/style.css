@@ -103,19 +103,20 @@ body{
     .blue-col{
         width: 60%;
 
-        height: 500px;
-
         display: flex;
         justify-content: center;
     }
 
     .pink-col{
         width: 40%;
-        height: 500px;
     }
 
-    .main-section-text{
+    .main-section-text.type1{
         margin-left: 120px;
+    }
+
+    .main-section-text.type2{
+        margin-right: 120px;
     }
 
     .main-section-text > h2{
@@ -127,8 +128,15 @@ body{
     .main-section-text > p{
         font-size: 20px;
         font-weight: 500;
-        margin-top: 45px;
         line-height: 1.5;
+    }
+
+    .main-paragraph-1{
+        margin-top: 45px;
+    }
+
+    .main-paragraph-2{
+        margin-top: 30px;
     }
 
     .green-col{
@@ -191,7 +199,7 @@ body{
 
         .section-type3{
             width: 100%;
-            padding: 100px 0px;
+            padding: 150px 0px;
         }
 
         .section-type4{
@@ -256,7 +264,7 @@ body{
 
     /* BG-IMAGE */
         .bgimg-grey{
-            
+
         }
     /* FINE BG-IMAGE */
 
