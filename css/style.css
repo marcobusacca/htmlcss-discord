@@ -272,13 +272,11 @@ body{
         }
 
         .container-type2{
-            max-width: 991px;
             width: 48%;
             margin: 0 auto;
         }
 
         .container-type3{
-            max-width: 1170px;
             width: 70%;
             margin: 0 auto;
             border: 2px dashed black;
