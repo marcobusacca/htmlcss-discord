@@ -66,6 +66,7 @@ body{
         font-size: 21px;
         margin-top: 45px;
         font-weight: 500;
+        line-height: 1.5;
     }
 
     .jumbotron-btn-row{
@@ -101,14 +102,33 @@ body{
 /* MAIN */
     .blue-col{
         width: 60%;
+
         height: 500px;
-        background-color: #1E90FF;
+
+        display: flex;
+        justify-content: center;
     }
 
     .pink-col{
         width: 40%;
         height: 500px;
-        background-color: #FFC0CB;
+    }
+
+    .main-section-text{
+        margin-left: 120px;
+    }
+
+    .main-section-text > h2{
+        font-size: 50px;
+        font-weight: bolder;
+        margin-top: 40px;
+    }
+
+    .main-section-text > p{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 45px;
+        line-height: 1.5;
     }
 
     .green-col{
@@ -171,10 +191,15 @@ body{
 
         .section-type3{
             width: 100%;
-            padding: 5px 0px 20px 0px;
+            padding: 100px 0px;
         }
 
         .section-type4{
+            width: 100%;
+            padding: 5px 0px 20px 0px;
+        }
+
+        .section-type5{
             width: 100%;
             padding-top: 20px;
         }
@@ -220,18 +245,20 @@ body{
     /* FINE TEXT ALIGN */
 
     /* BG-COLOR */
-        .bgcolor-grey{
-            background-color: #D3D3D3;
-        }
-
         .bgcolor-black{
             background-color: #23272A;
         }
 
         .bgcolor-white{
-            background-color: white;
+            background-color: #FFFFFF;
         }
     /* FINE BG-COLOR */
+
+    /* BG-IMAGE */
+        .bgimg-grey{
+            
+        }
+    /* FINE BG-IMAGE */
 
     /* BORDER RADIUS */
         .border-radius{
