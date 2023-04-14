@@ -49,8 +49,7 @@ body{
     /* HEADER JUMBOTRON */
         .jumbotron-col{
             width: 100%;
-            height: 400px;
-            margin-bottom: 25px;
+            margin-bottom: 120px;
         }
 
         .jumbotron-text-row{
@@ -80,7 +79,6 @@ body{
 
         .jumbotron-btn-row > a{
             font-size: 20px;
-            text-align: center;
         }
 
         .btn-1{
@@ -103,7 +101,7 @@ body{
         width: 60%;
 
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
         justify-content: center;
     }
 
