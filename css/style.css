@@ -42,7 +42,7 @@ body{
     }
 
     .header-col.type-2 a{
-        margin: 0px 35px;
+        margin: 0px 25px;
     }
     
     .jumbotron-col{
@@ -71,6 +71,7 @@ body{
 
     .jumbotron-btn-row{
         display: flex;
+        flex-flow: row wrap;
         justify-content: center;
         margin-top: 30px;
     }
@@ -92,11 +93,6 @@ body{
         margin-left: 15px;
         margin-right: 120px;
     }
-
-    .btn-1 > span {
-        padding-right: 15px;
-        font-size: 20px;
-    }
 /* FINE HEADER */
 
 /* MAIN */
@@ -104,11 +100,16 @@ body{
         width: 60%;
 
         display: flex;
+        flex-flow: row nowrap;
         justify-content: center;
     }
 
     .main-col-2{
         width: 40%;
+    }
+
+    .main-section-text{
+        width: 100%;
     }
 
     .main-section-text.type1{
@@ -141,8 +142,50 @@ body{
 
     .main-col-3{
         width: 100%;
-        height: 800px;
-        background-color: #228B22;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .main-col-3 > .main-section-text-2{
+        width: 85%;
+    }
+
+    .main-section-text-2 > h2{
+        font-size: 42px;
+        font-weight: bolder;
+        margin-top: 40px;
+    }
+
+    .main-section-text-2 > p{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+
+    .main-col-3 > .row-2, .row-2 > img {
+        width: 100%;
+    }
+
+    .main-col-3 > .row-3{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bgimg-star > h2{
+        font-size: 25px;
+        padding: 40px 50px;
+    }
+
+    .row-3 > a{
+        font-size: 20px;
+
+        margin-top: 50px;
+        padding: 12px 30px;
+
+        border-radius: 25px;
     }
 /* FINE MAIN */
 
@@ -186,6 +229,11 @@ body{
         text-decoration: none;
         color: white;
     }
+
+    .arrow {
+        padding-right: 15px;
+        font-size: 20px;
+    }
     /* SECTION */
         .section-type1{
             width: 100%;
@@ -215,6 +263,7 @@ body{
 
     /* CONTAINER */
         .container-type1{
+            max-width: 1170px;
             width: 70%;
             margin: 0 auto;
         }
@@ -260,9 +309,21 @@ body{
         .bgcolor-white{
             background-color: #FFFFFF;
         }
+
+        .bgcolor-lightblue{
+            background-color: #8EA1E1;
+        }
     /* FINE BG-COLOR */
 
     /* BG-IMAGE */
+        .bgimg-star{
+            background-image: url(../img/stars.svg);
+            height: 50px;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
         .bgimg-grey{
 
         }
