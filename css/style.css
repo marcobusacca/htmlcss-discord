@@ -312,6 +312,10 @@ body{
         .bgcolor-lightblue{
             background-color: #8EA1E1;
         }
+
+        .bgcolor-grey{
+            background-color: #E5E5E5;
+        }
     /* FINE BG-COLOR */
 
     /* BG-IMAGE */
@@ -324,7 +328,13 @@ body{
         }
 
         .bgimg-grey{
+            width: 100%;
+            opacity: 0.1;
+            display: flex;
+        }
 
+        .bgimg-grey.reverse{
+            transform: scale(-1, -1);
         }
     /* FINE BG-IMAGE */
 
