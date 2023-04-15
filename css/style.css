@@ -176,12 +176,12 @@ body{
         align-items: center;
     }
 
-    .bgimg-star > h2{
+    .row-3 > .bgimg-star > h2{
         font-size: 25px;
         padding: 40px 50px;
     }
 
-    .row-3 > a{
+    .main-col-3 > .row-3 > a{
         font-size: 20px;
 
         margin-top: 50px;
@@ -192,6 +192,10 @@ body{
 /* FINE MAIN */
 
 /* FOOTER */
+    .footer-row-1{
+        margin-top: 50px;
+    }
+
     .footer-col-1{
         width: 30%;
         height: 500px;
@@ -273,21 +277,11 @@ body{
             width: 48%;
             margin: 0 auto;
         }
-
-        .container-type3{
-            width: 70%;
-            margin: 0 auto;
-            border: 2px dashed black;
-        }
     /* FINE CONTAINER */
 
     .row{
         display: flex;
         flex-flow: row wrap;
-    }
-
-    .col{
-        border: 2px dashed black;
     }
 
     /* TEXT ALIGN */
@@ -337,6 +331,13 @@ body{
             transform: scale(-1, -1);
         }
     /* FINE BG-IMAGE */
+
+    /* TEXT COLOR */
+        .txt-blue{
+            color: #7289DA;
+        }
+
+    /* FINE TEXT COLOR */
 
     /* BORDER RADIUS */
         .border-radius{
