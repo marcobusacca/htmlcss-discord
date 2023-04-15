@@ -193,47 +193,53 @@ body{
 
 /* FOOTER */
     /* FOOTER SECTION 1 */
-    .footer-row-1{
-        margin-top: 50px;
-        color: white;
-    }
+        .footer-row-1{
+            margin-top: 50px;
+            color: white;
+        }
 
-    .footer-col-1{
-        width: 30%;
-    }
+        .footer-col-1{
+            width: 30%;
+        }
 
-    .footer-col-1 > .footer-item{
-        margin-right: 150px;
-    }
+        .footer-col-1 > .footer-item{
+            margin-right: 150px;
+        }
 
-    .footer-item > *{
-        padding-bottom: 30px;
-    }
+        .footer-item > *{
+            padding-bottom: 30px;
+        }
 
-    .footer-item > h2{
-        font-size: 30px;
-    }
+        .footer-item > h2{
+            font-size: 30px;
+        }
 
-    .footer-language > *{
-        vertical-align: middle;
-    }
+        .footer-language > *{
+            vertical-align: middle;
+        }
 
-    .footer-language > img{
-        width: 10%;
-    }
+        .footer-language > img{
+            width: 10%;
+        }
 
-    .footer-item > i{
-        padding-right: 30px;
-    }
+        .footer-item > a{
+            padding-right: 30px;
+        }
     /* FINE FOOTER SECTION 1 */
+    /* FOOTER SECTION 2 */
+        .footer-col-2{
+            width: calc(70% / 4);
+        }
 
-    .footer-col-2{
-        width: calc(70% / 4);
-        background-color: #20B2AA;
+        .footer-col-2 > ul{
+            list-style-type: none;
+        }
 
-        border: 2px dashed white;
-    }
-
+        .footer-col-2 ul li{
+            padding-bottom: 15px;
+        }
+    /* FINE FOOTER SECTION 2 */
+    /* FOOTER SECTION 3 */
     .footer-col-3{
         width: 100%;
 
@@ -252,6 +258,7 @@ body{
         border: 2px dashed black;
         background-color: #FFB6C1;
     }
+    /* FINE FOOTER SECTION 3 */
 /* FINE FOOTER */
 
 /* UTILITIES */
