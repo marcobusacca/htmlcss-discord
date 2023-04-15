@@ -66,7 +66,6 @@ body{
         #jumbotron-text{
             font-size: 21px;
             margin-top: 45px;
-            font-weight: 500;
             line-height: 1.5;
         }
 
@@ -75,7 +74,6 @@ body{
             flex-flow: row wrap;
             justify-content: center;
             margin-top: 30px;
-            font-weight: 600;
         }
 
         .jumbotron-btn-row > a{
@@ -133,7 +131,6 @@ body{
 
         .main-section-text > p{
             font-size: 20px;
-            font-weight: 500;
             line-height: 1.5;
         }
 
@@ -161,7 +158,6 @@ body{
 
         .main-section-text-2 > p{
             font-size: 20px;
-            font-weight: 500;
             line-height: 1.5;
 
             margin-left: 2px;
