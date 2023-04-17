@@ -360,7 +360,7 @@ body{
         }
 
         .bgimg-grey.reverse{
-            transform: scale(-1, -1);
+            transform: rotate(180deg);
         }
     /* FINE BG-IMAGE */
 
